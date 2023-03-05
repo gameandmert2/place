@@ -12,7 +12,7 @@ function main() {
 
 const GUI = (cvs, glWindow, place) => {
 	let color = new Uint8Array([0, 0, 0]);
-	let dragdown = false;
+	let dragdown = true;
 	let touchID = 0;
 	let touchScaling = false;
 	let lastMovePos = { x: 0, y: 0 };
